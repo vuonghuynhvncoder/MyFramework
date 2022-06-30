@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BADF18C85B5FED764DD8778 /* Pods_MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6209A3CDB3126A80960240B8 /* Pods_MyFramework.framework */; };
 		6DCC7881286D44BF0071F444 /* MyFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6DCC7880286D44BF0071F444 /* MyFramework.docc */; };
 		6DCC7887286D44BF0071F444 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DCC787C286D44BF0071F444 /* MyFramework.framework */; };
 		6DCC788C286D44BF0071F444 /* MyFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCC788B286D44BF0071F444 /* MyFrameworkTests.swift */; };
 		6DCC788D286D44BF0071F444 /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DCC787F286D44BF0071F444 /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DCC789C286D45C80071F444 /* Abc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCC789B286D45C80071F444 /* Abc.swift */; };
+		6DCC78F8286DF66B0071F444 /* Pods_MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6209A3CDB3126A80960240B8 /* Pods_MyFramework.framework */; };
 		9075B694549319DC3464FC5C /* Pods_MyFramework_MyFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DCF17117731C66E5E0C1BB /* Pods_MyFramework_MyFrameworkTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,19 +25,6 @@
 			remoteInfo = MyFramework;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		6DCC789A286D45000071F444 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		45539BD0055CC7C1402C8C12 /* Pods-MyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFramework.release.xcconfig"; path = "Target Support Files/Pods-MyFramework/Pods-MyFramework.release.xcconfig"; sourceTree = "<group>"; };
@@ -59,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BADF18C85B5FED764DD8778 /* Pods_MyFramework.framework in Frameworks */,
+				6DCC78F8286DF66B0071F444 /* Pods_MyFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +70,6 @@
 				A9D08D1BE5ACA4ED41983EAD /* Pods-MyFramework-MyFrameworkTests.debug.xcconfig */,
 				7E9A5F7349FC67CD2892AD29 /* Pods-MyFramework-MyFrameworkTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -157,7 +143,6 @@
 				6DCC7878286D44BF0071F444 /* Sources */,
 				6DCC7879286D44BF0071F444 /* Frameworks */,
 				6DCC787A286D44BF0071F444 /* Resources */,
-				6DCC789A286D45000071F444 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
