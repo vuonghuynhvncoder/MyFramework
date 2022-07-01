@@ -15,10 +15,13 @@ This CocoaPods library helps you perform calculation.
   spec.author             = { "vuonghuynh.vncoder" => "vuonghuynh.vncoder@gmail.com" }
 
   spec.ios.deployment_target = "14.0"
+  spec.swift_version = "5.6"
 
   spec.source       = { :git => "https://github.com/vuonghuynhvncoder/MyFramework.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "MyFramework/**/*.{h,m,swift}"
   spec.dependency 'GoogleWebRTC'
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
